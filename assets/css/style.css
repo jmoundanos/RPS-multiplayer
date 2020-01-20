@@ -16,28 +16,76 @@ h3{
     color: #224747;
 }
 p{
-    font-family: 'Yantramanav', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
-#wrapper1, #wrapper2{
-   background-color: #E0D077;
+.trash{
+    background-color: #E0D077;
+    min-height: 50px;
 }
 .col-6{
-    
+    background-color: #E0D077;
     padding: 20px;
-}
-.col{
-   
-    padding: 20px;
+    height: 65vh;
 }
 .col-4{
-    border: solid 1px black;
-    padding: 20px;
+   padding: 20px;
 }
 .choice{
     display:inline;
     padding-left: 10px;
     padding-right: 10px;
 }
-.btn{
+.button1{
     font-family: 'Yantramanav', sans-serif;
+    font-size: 1.2rem;
+    background-color:#224747;
+    border-color: #224747;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
 }
+.button1:hover, .button1:active{
+    background-color: #569394;
+}
+#player1{
+    border-right: 1px solid #224747;
+    
+}
+#player2{
+    border-left: 1px solid #224747;
+}
+#button3{
+    font-family: 'Yantramanav', sans-serif;
+    background-color: #224747;
+    border-color: #224747;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+#button3:hover, #button3:active{
+    background-color:#569394;
+}
+
+#wrapper1, #wrapper2{
+    background-color: #E0D077;
+    padding: 0;
+    color:#224747;
+   
+ }
+ @media only screen and (max-width: 991px) {
+    h1{
+        height: 200px;
+    }
+ }
+ @media only screen and (max-width: 770px){
+     #wrapper1, #wrapper2{
+    padding-right: 15px;
+     }
+ }

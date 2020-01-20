@@ -11,15 +11,15 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col" class="header">
                     <h1 class="display-3">Rock Paper Scissors</h1>
                 </div>
             </div>
             <div class="row no-gutters">
-                <div class="col-6">
+                <div class="col-6" id="player1">
                     <h3>Player 1</h3>
                     <div class="row no-gutters">
-                        <div class="col"></div>
+                        <div class="col trash"></div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col">
@@ -32,20 +32,20 @@
                         <div class="col" id="wrapper1">
                             <div class="row no-gutters">
                                 <div class="col results">
-                                    <p class="win">Wins: </p>
-                                    <p class="lose">Losses: </p>
+                                    <p class="win">Wins: 0</p>
+                                    <p class="lose">Losses: 0</p>
                                 </div>
-                                <div class="col">
-                                    <button type="button" class="btn btn-secondary btn-lg">Trash your opponent!</button> 
+                                <div class="col" id="buttons1">
+                                    <p class="button1">Trash talk!</p> 
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6" id="player2">
                     <h3>Player 2</h3>
                     <div class="row no-gutters">
-                        <div class="col"></div>
+                        <div class="col trash"></div>
                     </div>
                     <div class="row no-gutters">
                         <div class="col">
@@ -58,11 +58,11 @@
                         <div class="col" id="wrapper2">
                             <div class="row no-gutters">
                                 <div class="col results">
-                                    <p class="win">Wins: </p>
-                                    <p class="lose">Losses: </p>
+                                    <p class="win">Wins: 0</p>
+                                    <p class="lose">Losses: 0</p>
                                 </div>
-                                <div class="col">
-                                    <button type="button" class="btn btn-secondary btn-lg">Trash your opponent!</button> 
+                                <div class="col" id="buttons2">
+                                    <p class="button1">Trash talk!</p> 
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
             </div>
             <div class="row no-gutters">
                 <div class="col-4"></div>
-                <div class="col-4">buttons</div>
+                <div class="col-4"><button id="button3">Play another opponent</button></div>
                 <div class="col-4"></div>
             </div>
         </div>
