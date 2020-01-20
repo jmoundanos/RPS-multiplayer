@@ -9,14 +9,20 @@ h1{
     color: #224747;
     background-color: #A16D91;
     height: 125px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 h3{
     font-family: 'Kanit', sans-serif;
+    color: #224747;
 }
-
+p{
+    font-family: 'Yantramanav', sans-serif;
+}
+#wrapper1, #wrapper2{
+   background-color: #E0D077;
+}
 .col-6{
-    border: solid 1px black;
+    
     padding: 20px;
 }
 .col{
@@ -29,7 +35,9 @@ h3{
 }
 .choice{
     display:inline;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.img{
-   
+.btn{
+    font-family: 'Yantramanav', sans-serif;
 }
