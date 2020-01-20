@@ -1,0 +1,35 @@
+.container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100vh;
+    text-align: center;
+}
+h1{
+    font-family: 'Titan One', cursive;
+    color: #224747;
+    background-color: #A16D91;
+    height: 125px;
+    padding-top: 10px;
+}
+h3{
+    font-family: 'Kanit', sans-serif;
+}
+
+.col-6{
+    border: solid 1px black;
+    padding: 20px;
+}
+.col{
+   
+    padding: 20px;
+}
+.col-4{
+    border: solid 1px black;
+    padding: 20px;
+}
+.choice{
+    display:inline;
+}
+.img{
+   
+}
