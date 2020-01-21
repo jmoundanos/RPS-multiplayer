@@ -6,30 +6,29 @@
 }
 h1{
     font-family: 'Titan One', cursive;
-    color: #224747;
+    color: #234747;
     background-color: #A16D91;
     height: 125px;
     padding-top: 15px;
 }
 h3{
     font-family: 'Kanit', sans-serif;
-    color: #224747;
+    color: #234747;
 }
 p{
     font-family: 'Kanit', sans-serif;
 }
 .trash{
     background-color: #E0D077;
-    min-height: 50px;
+    height: 50px;
 }
 .col-6{
     background-color: #E0D077;
     padding: 20px;
     height: 65vh;
+    margin-top: 10px;
 }
-.col-4{
-   padding: 20px;
-}
+
 .choice{
     display:inline;
     padding-left: 10px;
@@ -38,11 +37,11 @@ p{
 .button1{
     font-family: 'Yantramanav', sans-serif;
     font-size: 1.2rem;
-    background-color:#224747;
-    border-color: #224747;
+    background-color:#234747;
+    border-color: #234747;
     color: white;
-    padding: 10px;
-    border-radius: 25px;
+    padding: 15px;
+    border-radius: 50px;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -54,20 +53,23 @@ p{
 .button1:hover, .button1:active{
     background-color: #569394;
 }
+.choices1, .choices2{
+    margin-top: 25px;
+}
 #player1{
-    border-right: 1px solid #224747;
-    
+    border-right: 1px solid #234747;
 }
 #player2{
-    border-left: 1px solid #224747;
+    border-left: 1px solid #234747;
 }
 #button3{
-    font-family: 'Yantramanav', sans-serif;
-    background-color: #224747;
-    border-color: #224747;
+    background-color: #234747;
+    border-color: #234747;
     color: white;
-    border-radius: 10px;
-    margin-bottom: 25px;
+    border-radius: 50px;
+    padding: 20px 0 20px 0;
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
 #button3:hover, #button3:active{
     background-color:#569394;
@@ -76,16 +78,48 @@ p{
 #wrapper1, #wrapper2{
     background-color: #E0D077;
     padding: 0;
-    color:#224747;
-   
- }
+    color:#234747;
+    margin-top: 75px;
+}
  @media only screen and (max-width: 991px) {
     h1{
         height: 200px;
     }
+    .choices1, .choices2{
+        margin-top: 15px;
+    }
+    #wrapper1, #wrapper2{
+        margin-top: 60px;
+    }
+
  }
  @media only screen and (max-width: 770px){
      #wrapper1, #wrapper2{
     padding-right: 15px;
+    margin-top: 45px;
+     }
+ }
+ @media only screen and (max-width: 537px){
+    #wrapper1, #wrapper2{
+        margin-top: 10px;
+    }
+    .button1{
+        padding: 5px;
+        font-size: 1rem;
+    }
+    #button3{
+        padding: 0px;
+        font-size: 1rem;
+    }
+    .trash{
+        height: 15px;
+    }
+    #player1, #player2{
+        margin-top: 0px;
+    }
+ }
+ @media only screen and (max-width: 360px){
+     .col-6{
+         height: 45vh;
      }
  }
